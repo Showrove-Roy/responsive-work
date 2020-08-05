@@ -1,0 +1,1972 @@
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    /* ++++++++++section_1++++++++ */
+
+    .container1 {
+        padding: 5px 0;
+        width: 99%;
+        height: 305px;
+        overflow: hidden;
+    }
+
+    .container1 .content-left {
+        width: 15%;
+        height: 295px;
+    }
+
+    .container1 .content-left .logo {
+        height: 50px;
+        width: 70px;
+        left: 10px;
+
+    }
+
+
+
+    .container1 .content-left p {
+        font-size: 10px;
+        left: 25px;
+        width: 70px;
+    }
+
+
+
+    .content-right {
+        width: 78%;
+        padding: 0px;
+        height: 300px;
+    }
+
+
+    .content-right .nav-bar ul {
+        width: 300px;
+        margin: 5px 20%;
+
+    }
+
+    .content-right .nav-bar ul li {
+        padding: 0px;
+
+    }
+    .content-right .nav-bar ul li:nth-child(1){
+        margin-top: 8px;
+    }
+    .content-right .nav-bar ul li:nth-child(2){
+        margin-top: 8px;
+    }
+
+
+    .content-right .nav-bar ul li:nth-child(1)::before {
+        content: "";
+        position: absolute;
+        border-bottom: 2px solid #754EF9;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(1):hover::before {
+        width: 60px;
+        animation-name: underlin;
+        animation-duration: 1s;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border-bottom: 2px solid #754EF9;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(2):hover::before {
+        width: 65px;
+        animation-name: underlin;
+        animation-duration: 1s;
+    }
+    @keyframes underlin {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 100%;
+        }
+    }
+    
+
+
+    .content-right .nav-bar ul li:nth-child(3) {
+        padding: 5px 12px;
+        line-height: 20px;
+
+    }
+
+    .content-right .nav-bar ul li:nth-child(3)::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -5px;
+        z-index: -1;
+    }
+    
+    .content-right .nav-bar ul li:hover:nth-child(3)::before {
+        height: 27px;
+        width: 110px;
+        background: rgb(255, 255, 255);
+        animation-name: overlap;
+        animation-duration: 1s;
+        transition: 1s;
+    }
+    
+    @keyframes overlap {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 100%;
+        }
+    }
+    
+    .content-right .nav-bar ul li:nth-child(3):hover {
+        border: 2px solid #754EF9;
+        padding: 3px 5px;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(3):hover a {
+        color: #414141 !important;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+
+
+
+
+    .content-right .nav-bar ul li a {
+        font-size: 11px;
+
+    }
+
+
+    .content-right .profile-pic-box {
+        height: 120px;
+        width: 120px;
+        left: -100px;
+        padding: 5px;
+        border: 6px solid #754ef9;
+        top: 65px;
+
+    }
+
+
+
+    .content-right .profile-pic-box .profile-pic {
+        height: 90%;
+        width: 90%;
+        border: 6px solid #754ef9;
+
+    }
+
+
+    .content-right .right-title {
+        top: 100px;
+        left: 20%;
+
+    }
+
+    .content-right .right-title h1 {
+        font-size: 25px;
+
+    }
+
+    .content-right .right-title p {
+        font-size: 12px;
+        margin-top: 8px;
+
+    }
+
+
+    .content-right .intro {
+        top: 240px;
+        right: 100px;
+
+    }
+
+    .content-right .intro p {
+        font-size: 14px;
+        padding: 5px;
+
+    }
+
+    .content-right .intro .icon {
+        height: 30px;
+        width: 30px;
+
+    }
+
+
+    .content-right .intro i {
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+
+    .content-right .following-sec {
+        top: 120px;
+        right: -30px;
+    }
+
+    .content-right .following-sec p {
+        font-size: 12px;
+
+    }
+
+    .content-right .following-sec p::after {
+        border-right-width: 30px;
+        top: 6px;
+        right: -32px;
+
+    }
+
+
+    .content-right .following-sec .follow-icon {
+        right: 28px;
+        top: 85px;
+    }
+
+    .content-right .following-sec i {
+        font-size: 15px;
+        height: 20px;
+        width: 20px;
+
+    }
+
+
+
+    /* +++++++++section_2+++++++++ */
+
+    .service {
+    width: 99%;
+    padding: 10px 0 10px 10px;
+    overflow: hidden;
+}
+
+    .service .content {
+    width: 100%;
+    height: 230px;
+}
+
+    .service .content .box {
+    width: 30%;
+    height: 225px;
+}
+
+
+    .service .content .box .pic {margin: 20px;}
+
+    .service .content .box .pic img {
+    height: 35px;
+}
+
+    .service .content .box h1 {
+    font-size: 15px;
+}
+
+    .service .content .box p {
+    padding: 20px;
+    font-size: 10px;
+}
+
+
+    .service .content .box .btn button {
+    font-size: 10px;
+    padding: 5px 15px;
+}
+
+
+
+
+    /* ++++++++section_3++++++ */
+
+
+    .portfolio {
+    padding: 0;
+    overflow: hidden;
+}
+
+
+    .portfolio .title h1 {
+    font-size: 20px;
+}
+
+    .portfolio .title p {
+    font-size: 12px;
+}
+
+
+    .portfolio .container {
+    margin: 5px 0;
+    padding: 10px 0 10px 5px;
+}
+
+    .portfolio .container .box1 {
+    padding: 4px 0;
+}
+
+    .portfolio .container .box1 .content {
+    width: 31%;
+    height: 30%;
+}
+
+
+
+    .portfolio .container .box1 .content-ovl {
+    width: 57%;
+    height: 30%;
+    display: block;
+    position: relative;
+    background: #7751F6;
+    padding: 4%;
+}
+
+.portfolio .container .box1 .content-ovl .overlap {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+}
+
+    .overlap h1 {margin-bottom: 5%;}
+
+    .overlap p {
+    font-size: 11px;
+    line-height: 133%;
+    position: relative;
+    padding-bottom: 2%;
+}
+
+    .overlap .icon {right: -25px;bottom: -20px;}
+
+
+    .overlap .icon .photo {
+    height: 15px;
+    width: 15px;
+}
+
+
+
+    /* <!-- ++++++++SECTION_4+++++++ --> */
+
+
+    .testimonial .title {
+    padding: 15px;
+    overflow: hidden;
+}
+
+    .testimonial .title h1 {
+    font-size: 20px;
+}
+
+    .testimonial .title p {
+    font-size: 11px;
+}
+
+    .testimonial .box {
+    margin: 0 25px;
+}
+
+    .testimonial .box::before {
+    width: 10px;
+    height: 232px;
+}
+
+    .testimonial .box::after {
+    width: 10px;
+    height: 232px;
+}
+
+    .testimonial .box .pic {
+    height: 30px;
+    width: 30px;
+    box-shadow: 0 0 0 8px rgba(151, 122, 250, 1), 0 0 0 16px rgba(186, 166, 252, 1);
+    margin: 25px;
+}
+
+
+    .testimonial .box .text h1 {
+    font-size: 15px;
+    padding: 5px;
+}
+
+    .testimonial .box .text p {
+    font-size: 11px;
+    padding: 15px 60px;
+}
+
+    .testimonial .doth {
+    margin-top: 30px;
+}
+
+
+
+    /* <!-- ++++++++SECTION_5+++++++ -->    */
+
+    .contact {
+    width: 100%;
+    overflow: hidden;
+}
+
+    .contact .contact-title {
+    margin: 20px;
+}
+
+    .contact .contact-title h1 {
+    font-size: 20px;
+}
+
+    .contact .contact-title p {
+    font-size: 12px;
+}
+
+    .contact .mail-box {
+    margin: 0;
+    height: 25px;
+    width: 65%;
+    transform: translate(30% );
+}
+
+    .contact .mail-box input {
+    padding: 5px 0 5px 9px;
+    font-size: 13px;
+    width: 65%;
+}
+
+
+
+    .contact .mail-box button {
+    font-size: 12px;
+    padding: 6px 13px;
+}
+
+
+    .contact footer {
+    padding: 0 10px;
+    height: 50px;
+    margin: 10px 0px;
+}
+
+
+    .contact footer .name h1 {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+    .contact footer .link {
+    width: 50%;
+}
+
+    .contact footer .link ul {
+    line-height: 50px;
+}
+
+
+    .contact footer .link ul li a {
+    font-size: 13px;
+}
+
+    .contact footer .social-btn {
+    line-height: 53px;
+}
+
+    .contact footer .social-btn i {
+    font-size: 15px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) and (min-width:600px) {
+    body {
+        padding: 0 2%;
+    }
+
+    /* ++++++++++section_1++++++++ */
+
+    .container1 {
+        padding: 5px 0;
+        width: 99%;
+        height: 305px;
+    }
+
+    .container1 .content-left {
+        width: 15%;
+        height: 295px;
+    }
+
+    .container1 .content-left .logo {
+        height: 50px;
+        width: 70px;
+        left: 10px;
+
+    }
+
+
+
+    .container1 .content-left p {
+        font-size: 12px;
+        left: 25px;
+        width: 80px;
+    }
+
+
+
+    .content-right {
+        width: 78%;
+        padding: 0px;
+        height: 300px;
+    }
+
+
+    .content-right .nav-bar ul {
+        width: 300px;
+        margin: 5px 20%;
+
+    }
+
+    .content-right .nav-bar ul li {
+        padding: 0px;
+
+    }
+    .content-right .nav-bar ul li:nth-child(1){
+        margin-top: 8px;
+    }
+    .content-right .nav-bar ul li:nth-child(2){
+        margin-top: 8px;
+    }
+
+
+    .content-right .nav-bar ul li:nth-child(1)::before {
+        content: "";
+        position: absolute;
+        border-bottom: 2px solid #754EF9;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(1):hover::before {
+        width: 60px;
+        animation-name: underlin;
+        animation-duration: 1s;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border-bottom: 2px solid #754EF9;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(2):hover::before {
+        width: 65px;
+        animation-name: underlin;
+        animation-duration: 1s;
+    }
+    @keyframes underlin {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 100%;
+        }
+    }
+    
+
+
+    .content-right .nav-bar ul li:nth-child(3) {
+        padding: 5px 12px;
+        line-height: 20px;
+
+    }
+
+    .content-right .nav-bar ul li:nth-child(3)::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -5px;
+        z-index: -1;
+    }
+    
+    .content-right .nav-bar ul li:hover:nth-child(3)::before {
+        height: 27px;
+        width: 110px;
+        background: rgb(255, 255, 255);
+        animation-name: overlap;
+        animation-duration: 1s;
+        transition: 1s;
+    }
+    
+    @keyframes overlap {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 100%;
+        }
+    }
+    
+    .content-right .nav-bar ul li:nth-child(3):hover {
+        border: 2px solid #754EF9;
+        padding: 3px 5px;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(3):hover a {
+        color: #414141 !important;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+
+
+
+
+    .content-right .nav-bar ul li a {
+        font-size: 11px;
+
+    }
+
+
+    .content-right .profile-pic-box {
+        height: 120px;
+        width: 120px;
+        left: -100px;
+        padding: 5px;
+        border: 6px solid #754ef9;
+        top: 65px;
+
+    }
+
+
+
+    .content-right .profile-pic-box .profile-pic {
+        height: 90%;
+        width: 90%;
+        border: 6px solid #754ef9;
+
+    }
+
+
+    .content-right .right-title {
+        top: 100px;
+        left: 25%;
+    }
+
+    .content-right .right-title h1 {
+        font-size: 25px;
+
+    }
+
+    .content-right .right-title p {
+        font-size: 12px;
+        margin-top: 8px;
+
+    }
+
+
+    .content-right .intro {
+        top: 240px;
+        right: 120px;
+    }
+
+    .content-right .intro p {
+        font-size: 14px;
+        padding: 5px;
+
+    }
+
+    .content-right .intro .icon {
+        height: 30px;
+        width: 30px;
+
+    }
+
+
+    .content-right .intro i {
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+
+    .content-right .following-sec {
+        top: 120px;
+        right: -30px;
+    }
+
+    .content-right .following-sec p {
+        font-size: 12px;
+
+    }
+
+    .content-right .following-sec p::after {
+        border-right-width: 30px;
+        top: 6px;
+        right: -32px;
+
+    }
+
+
+    .content-right .following-sec .follow-icon {
+        right: 28px;
+        top: 85px;
+    }
+
+    .content-right .following-sec i {
+        font-size: 15px;
+        height: 20px;
+        width: 20px;
+
+    }
+
+
+
+    /* +++++++++section_2+++++++++ */
+
+    .service {
+    width: 99%;
+    padding: 10px 0 10px 10px;
+}
+
+    .service .content {
+    width: 100%;
+    height: 230px;
+}
+
+    .service .content .box {
+    width: 30%;
+    height: 225px;
+}
+
+
+    .service .content .box .pic {margin: 20px;}
+
+    .service .content .box .pic img {
+    height: 35px;
+}
+
+    .service .content .box h1 {
+    font-size: 15px;
+}
+
+    .service .content .box p {
+    padding: 20px;
+    font-size: 10px;
+}
+
+
+    .service .content .box .btn button {
+    font-size: 10px;
+    padding: 5px 15px;
+}
+
+
+
+
+    /* ++++++++section_3++++++ */
+
+
+    .portfolio {
+    padding: 0;
+}
+
+
+    .portfolio .title h1 {
+    font-size: 20px;
+}
+
+    .portfolio .title p {
+    font-size: 12px;
+}
+
+
+    .portfolio .container {
+    margin: 5px 0;
+    padding: 10px 0 10px 5px;
+}
+
+    .portfolio .container .box1 {
+    padding: 4px 0;
+}
+
+    .portfolio .container .box1 .content {
+    width: 31%;
+    height: 30%;
+}
+
+
+
+    .portfolio .container .box1 .content-ovl {
+    width: 57%;
+    height: 30%;
+    display: block;
+    position: relative;
+    background: #7751F6;
+    padding: 4%;
+}
+
+.portfolio .container .box1 .content-ovl .overlap {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+}
+
+    .overlap h1 {margin-bottom: 5%;}
+
+    .overlap p {
+    font-size: 11px;
+    line-height: 133%;
+    position: relative;
+    padding-bottom: 2%;
+}
+
+    .overlap .icon {right: -25px;bottom: -20px;}
+
+
+    .overlap .icon .photo {
+    height: 15px;
+    width: 15px;
+}
+
+
+
+    /* <!-- ++++++++SECTION_4+++++++ --> */
+
+
+    .testimonial .title {
+    padding: 15px;
+}
+
+    .testimonial .title h1 {
+    font-size: 20px;
+}
+
+    .testimonial .title p {
+    font-size: 11px;
+}
+
+    .testimonial .box {
+    margin: 0 25px;
+}
+
+    .testimonial .box::before {
+    width: 10px;
+    height: 232px;
+}
+
+    .testimonial .box::after {
+    width: 10px;
+    height: 232px;
+}
+
+    .testimonial .box .pic {
+    height: 30px;
+    width: 30px;
+    box-shadow: 0 0 0 8px rgba(151, 122, 250, 1), 0 0 0 16px rgba(186, 166, 252, 1);
+    margin: 25px;
+}
+
+
+    .testimonial .box .text h1 {
+    font-size: 15px;
+    padding: 5px;
+}
+
+    .testimonial .box .text p {
+    font-size: 11px;
+    padding: 15px 60px;
+}
+
+    .testimonial .doth {
+    margin-top: 30px;
+}
+
+
+
+    /* <!-- ++++++++SECTION_5+++++++ -->    */
+
+    .contact {
+    width: 100%;
+}
+
+    .contact .contact-title {
+    margin: 20px;
+}
+
+    .contact .contact-title h1 {
+    font-size: 20px;
+}
+
+    .contact .contact-title p {
+    font-size: 12px;
+}
+
+    .contact .mail-box {
+    margin: 0;
+    height: 25px;
+    width: 65%;
+    transform: translate(30% );
+}
+
+    .contact .mail-box input {
+    padding: 5px 0 5px 9px;
+    font-size: 13px;
+    width: 65%;
+}
+
+
+
+    .contact .mail-box button {
+    font-size: 12px;
+    padding: 6px 13px;
+}
+
+
+    .contact footer {
+    padding: 0 10px;
+    height: 50px;
+    margin: 10px 0px;
+}
+
+
+    .contact footer .name h1 {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+    .contact footer .link {
+    width: 50%;
+}
+
+    .contact footer .link ul {
+    line-height: 50px;
+}
+
+
+    .contact footer .link ul li a {
+    font-size: 13px;
+}
+
+    .contact footer .social-btn {
+    line-height: 53px;
+}
+
+    .contact footer .social-btn i {
+    font-size: 15px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) and (min-width:768px) {
+    body {
+        padding: 0 5%;
+    }
+
+    /* ++++++++++section_1++++++++ */
+
+    .container1 {
+        width: 99%;
+        height: 450px;
+    }
+
+    .container1 .content-left {
+        width: 15%;
+        height: 425px;
+    }
+
+    .container1 .content-left .logo {
+        height: 70px;
+        width: 85px;
+        left: 0px;
+    }
+
+
+
+    .container1 .content-left p {
+        font-size: 13px;
+        left: 5px;
+        width: 90px;
+    }
+
+
+
+    .content-right {
+        width: 84%;
+        padding: 0px;
+        height: 435px;
+    }
+
+
+    .content-right .nav-bar ul {
+        width: 350px;
+        margin: 5px 20%;
+    }
+
+    .content-right .nav-bar ul li {
+        padding: 0px;
+
+    }
+    .content-right .nav-bar ul li:nth-child(1){
+        margin-top: 20px;
+    }
+    .content-right .nav-bar ul li:nth-child(2){
+        margin-top: 20px;
+    }
+
+
+    .content-right .nav-bar ul li:nth-child(1)::before {
+        content: "";
+        position: absolute;
+        border-bottom: 2px solid #754EF9;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(1):hover::before {
+        width: 72px;
+        animation-name: underlin;
+        animation-duration: 1s;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border-bottom: 2px solid #754EF9;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(2):hover::before {
+        width: 80px;
+        animation-name: underlin;
+        animation-duration: 1s;
+    }
+    @keyframes underlin {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 110%;
+        }
+    }
+    
+
+
+    .content-right .nav-bar ul li:nth-child(3) {
+        padding: 6px 15px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+
+    .content-right .nav-bar ul li:nth-child(3)::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -5px;
+        z-index: -1;
+    }
+    
+    .content-right .nav-bar ul li:hover:nth-child(3)::before {
+        height: 40px;
+        width: 135px;
+        background: rgb(255, 255, 255);
+        animation-name: overlap;
+        animation-duration: 1s;
+        transition: 1s;
+    }
+    
+    @keyframes overlap {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 100%;
+        }
+    }
+    
+    .content-right .nav-bar ul li:nth-child(3):hover {
+        border: 2px solid #754EF9;
+        padding: 5px 5px;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(3):hover a {
+        color: #414141 !important;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+
+
+
+
+    .content-right .nav-bar ul li a {
+        font-size: 13px;
+    }
+
+
+    .content-right .profile-pic-box {
+        height: 170px;
+        width: 160px;
+        left: -120px;
+        padding: 8px;
+        border: 8px solid #754ef9;
+        top: 75px;
+    }
+
+
+
+    .content-right .profile-pic-box .profile-pic {
+        height: 90%;
+        width: 90%;
+        border: 8px solid #754ef9;
+    }
+
+
+    .content-right .right-title {
+        top: 115px;
+        left: 25%;
+    }
+
+    .content-right .right-title h1 {
+        font-size: 35px;
+    }
+
+    .content-right .right-title p {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+
+    .content-right .intro {
+        top: 300px;
+        right: 150px;
+    }
+
+    .content-right .intro p {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .content-right .intro .icon {
+        height: 40px;
+        width: 40px;
+    }
+
+
+    .content-right .intro i {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+
+    .content-right .following-sec {
+        top: 150px;
+        right: 0px;
+    }
+
+    .content-right .following-sec p {
+        font-size: 15px;
+    }
+
+    .content-right .following-sec p::after {
+        border-right-width: 40px;
+        top: 8px;
+        right: -45px;
+    }
+
+
+    .content-right .following-sec .follow-icon {
+        right: 42px;
+        top: 115px;
+    }
+
+    .content-right .following-sec i {
+        font-size: 18px;
+        height: 25px;
+        width: 25px;
+    }
+
+
+
+    /* +++++++++section_2+++++++++ */
+
+    .service {
+    width: 99%;
+    padding: 10px 0 10px 10px;
+}
+
+    .service .content {
+    width: 100%;
+    height: 300px;
+}
+
+    .service .content .box {
+    width: 30%;
+    height: 300px;
+}
+
+
+    .service .content .box .pic {margin: 25px;}
+
+    .service .content .box .pic img {
+    height: 45px;
+}
+
+    .service .content .box h1 {
+    font-size: 20px;
+}
+
+    .service .content .box p {
+    padding: 30px 20px;
+    font-size: 13px;
+}
+
+
+    .service .content .box .btn button {
+    font-size: 15px;
+    padding: 7px 20px;
+}
+
+
+
+
+    /* ++++++++section_3++++++ */
+
+
+    .portfolio {
+    padding: 0;
+}
+
+
+    .portfolio .title h1 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+    .portfolio .title p {
+    font-size: 15px;
+}
+
+
+    .portfolio .container {
+    margin: 5px 0;
+    padding: 10px 0 10px 5px;
+}
+
+    .portfolio .container .box1 {
+    padding: 4px 0;
+}
+
+    .portfolio .container .box1 .content {
+    width: 31%;
+    height: 30%;
+}
+
+
+
+    .portfolio .container .box1 .content-ovl {
+    width: 57%;
+    height: 55%;
+    display: block;
+    position: relative;
+    background: #7751F6;
+    padding: 6% 4%;
+}
+
+.portfolio .container .box1 .content-ovl .overlap {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+}
+
+    .overlap h1 {margin-bottom: 5%;}
+
+    .overlap p {
+    font-size: 13px;
+    line-height: 133%;
+    position: relative;
+    padding-bottom: 2%;
+}
+
+    .overlap .icon {right: -25px;bottom: -20px;}
+
+
+    .overlap .icon .photo {
+    height: 15px;
+    width: 15px;
+}
+
+
+
+    /* <!-- ++++++++SECTION_4+++++++ --> */
+
+
+    .testimonial .title {
+    padding: 25px;
+}
+
+    .testimonial .title h1 {
+    font-size: 20px;
+}
+
+    .testimonial .title p {
+    font-size: 11px;
+}
+
+    .testimonial .box {
+    margin: 0 30px;
+}
+
+    .testimonial .box::before {
+    width: 10px;
+    height: 250px;
+}
+
+    .testimonial .box::after {
+    width: 10px;
+    height: 250px;
+}
+
+    .testimonial .box .pic {
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 0 8px rgba(151, 122, 250, 1), 0 0 0 16px rgba(186, 166, 252, 1);
+    margin: 25px;
+}
+
+
+    .testimonial .box .text h1 {
+    font-size: 18px;
+    padding: 7px;
+}
+
+    .testimonial .box .text p {
+    font-size: 13px;
+    padding: 25px 65px;
+}
+
+    .testimonial .doth {
+    margin-top: 35px;
+}
+
+
+
+    /* <!-- ++++++++SECTION_5+++++++ -->    */
+
+    .contact {
+    width: 100%;
+}
+
+    .contact .contact-title {
+    margin: 25px;
+}
+
+    .contact .contact-title h1 {
+    font-size: 25px;
+}
+
+    .contact .contact-title p {
+    font-size: 15px;
+}
+
+    .contact .mail-box {
+    margin: 0;
+    height: 30px;
+    width: 55%;
+    transform: translate(40%);
+}
+
+    .contact .mail-box input {
+    padding: 8px 0 6px 12px;
+    font-size: 14px;
+    width: 75%;
+}
+
+
+
+    .contact .mail-box button {
+    font-size: 15px;
+    padding: 7px 14px;
+}
+
+
+    .contact footer {
+    padding: 0 10px;
+    height: 60px;
+    margin: 15px 0px;
+}
+
+
+    .contact footer .name h1 {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+    .contact footer .link {
+    width: 50%;
+}
+
+    .contact footer .link ul {
+    line-height: 60px;
+}
+
+
+    .contact footer .link ul li a {
+    font-size: 15px;
+}
+
+    .contact footer .social-btn {
+    line-height: 60px;
+}
+
+    .contact footer .social-btn i {
+    font-size: 18px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) and (min-width:992px) {
+    body {
+        padding: 0 8%;
+    }
+
+    /* ++++++++++section_1++++++++ */
+
+    .container1 {
+        width: 95%;
+        height: 500px;
+    }
+
+    .container1 .content-left {
+        width: 12%;
+        height: 425px;
+    }
+
+    .container1 .content-left .logo {
+        height: 70px;
+        width: 85px;
+        left: 0px;
+    }
+
+
+
+    .container1 .content-left p {
+        font-size: 13px;
+        left: 5px;
+        width: 90px;
+    }
+
+
+
+    .content-right {
+        width: 87%;
+        padding: 0px;
+        height: 485px;
+    }
+
+
+    .content-right .nav-bar ul {
+        width: 400px;
+        margin: 15px 28%;
+    }
+
+    .content-right .nav-bar ul li {
+        padding: 0px;
+
+    }
+    .content-right .nav-bar ul li:nth-child(1){
+        margin-top: 20px;
+    }
+    .content-right .nav-bar ul li:nth-child(2){
+        margin-top: 20px;
+    }
+
+
+    .content-right .nav-bar ul li:nth-child(1)::before {
+        content: "";
+        position: absolute;
+        border-bottom: 2px solid #754EF9;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(1):hover::before {
+        width: 80px;
+        animation-name: underlin;
+        animation-duration: 1s;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        border-bottom: 2px solid #754EF9;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(2):hover::before {
+        width: 90px;
+        animation-name: underlin;
+        animation-duration: 1s;
+    }
+    @keyframes underlin {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 100%;
+        }
+    }
+    
+
+
+    .content-right .nav-bar ul li:nth-child(3) {
+        padding: 7px 14px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+
+    .content-right .nav-bar ul li:nth-child(3)::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -5px;
+        z-index: -1;
+    }
+    
+    .content-right .nav-bar ul li:hover:nth-child(3)::before {
+        height: 50px;
+        width: 145px;
+        background: rgb(255, 255, 255);
+        animation-name: overlap;
+        animation-duration: 1s;
+        transition: 1s;
+    }
+    
+    @keyframes overlap {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 100%;
+        }
+    }
+    
+    .content-right .nav-bar ul li:nth-child(3):hover {
+        border: 2px solid #754EF9;
+        padding: 7px 20px;
+    }
+    
+    .content-right .nav-bar ul li:nth-child(3):hover a {
+        color: #414141 !important;
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+
+
+
+
+    .content-right .nav-bar ul li a {
+        font-size: 15px;
+    }
+
+
+    .content-right .profile-pic-box {
+        height: 210px;
+        width: 200px;
+        left: -150px;
+        padding: 10px;
+        border: 10px solid #754ef9;
+        top: 75px;
+    }
+
+
+
+    .content-right .profile-pic-box .profile-pic {
+        height: 90%;
+        width: 90%;
+        border: 10px solid #754ef9;
+    }
+
+
+    .content-right .right-title {
+        top: 140px;
+        left: 29%;
+    }
+
+    .content-right .right-title h1 {
+        font-size: 40px;
+    }
+
+    .content-right .right-title p {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+
+    .content-right .intro {
+        top: 350px;
+        right: 200px;
+    }
+
+    .content-right .intro p {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .content-right .intro .icon {
+        height: 40px;
+        width: 40px;
+    }
+
+
+    .content-right .intro i {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+
+    .content-right .following-sec {
+        top: 140px;
+        right: 10px;
+    }
+
+    .content-right .following-sec p {
+        font-size: 17px;
+    }
+
+    .content-right .following-sec p::after {
+        border-right-width: 50px;
+        top: 9px;
+        right: -60px;
+    }
+
+
+    .content-right .following-sec .follow-icon {
+        right: 52px;
+        top: 150px;
+    }
+
+    .content-right .following-sec i {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+
+
+
+    /* +++++++++section_2+++++++++ */
+
+    .service {
+    width: 99%;
+    padding: 15px 0 20px 15px;
+}
+
+    .service .content {
+    width: 100%;
+    height: 370px;
+}
+
+    .service .content .box {
+    width: 30%;
+    height: 350px;
+}
+
+
+    .service .content .box .pic {margin: 30px;}
+
+    .service .content .box .pic img {
+    height: 55px;
+}
+
+    .service .content .box h1 {
+    font-size: 20px;
+}
+
+    .service .content .box p {
+    padding: 40px 20px;
+    font-size: 14px;
+}
+
+
+    .service .content .box .btn button {
+    font-size: 16px;
+    padding: 5px 30px;
+}
+
+
+
+
+    /* ++++++++section_3++++++ */
+
+
+    .portfolio {
+    padding: 1px 0;
+}
+
+
+    .portfolio .title h1 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+    .portfolio .title p {
+    font-size: 17px;
+}
+
+
+    .portfolio .container {
+    margin: 5px 0;
+    padding: 10px 0 10px 5px;
+}
+
+    .portfolio .container .box1 {
+    padding: 4px 0;
+}
+
+    .portfolio .container .box1 .content {
+    width: 31%;
+    height: 30%;
+}
+
+
+
+    .portfolio .container .box1 .content-ovl {
+    width: 57%;
+    height: 54%;
+    display: block;
+    position: relative;
+    background: #7751F6;
+    padding: 8% 3%;
+}
+
+.portfolio .container .box1 .content-ovl .overlap {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0;
+}
+
+    .overlap h1 {margin-bottom: 5%;}
+
+    .overlap p {
+    font-size: 13px;
+    line-height: 133%;
+    position: relative;
+    padding-bottom: 2%;
+}
+
+    .overlap .icon {right: -20px;bottom: -60px;}
+
+
+    .overlap .icon .photo {
+    height: 15px;
+    width: 15px;
+}
+
+
+
+    /* <!-- ++++++++SECTION_4+++++++ --> */
+
+
+    .testimonial .title {
+    padding: 30px;
+}
+
+    .testimonial .title h1 {
+    font-size: 25px;
+}
+
+    .testimonial .title p {
+    font-size: 15px;
+}
+
+    .testimonial .box {
+    margin: 10px 50px;
+}
+
+    .testimonial .box::before {
+    width: 10px;
+    height: 262px;
+}
+
+    .testimonial .box::after {
+    width: 10px;
+    height: 262px;
+}
+
+    .testimonial .box .pic {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0 0 10px rgba(151, 122, 250, 1), 0 0 0 21px rgba(186, 166, 252, 1);
+    margin: 25px;
+}
+
+
+    .testimonial .box .text h1 {
+    font-size: 20px;
+    padding: 7px;
+}
+
+    .testimonial .box .text p {
+    font-size: 15px;
+    padding: 25px 70px;
+}
+
+    .testimonial .doth {
+    margin-top: 40px;
+}
+
+
+
+    /* <!-- ++++++++SECTION_5+++++++ -->    */
+
+    .contact {
+    width: 100%;
+    margin: 35px 0;
+}
+
+    .contact .contact-title {
+    margin: 25px;
+}
+
+    .contact .contact-title h1 {
+    font-size: 25px;
+}
+
+    .contact .contact-title p {
+    font-size: 15px;
+}
+
+    .contact .mail-box {
+    margin: 0;
+    height: 30px;
+    width: 50%;
+    transform: translate(50%);
+}
+
+    .contact .mail-box input {
+    padding: 8px 0 6px 12px;
+    font-size: 14px;
+    width: 75%;
+}
+
+
+
+    .contact .mail-box button {
+    font-size: 15px;
+    padding: 7px 14px;
+}
+
+
+    .contact footer {
+    padding: 0 10px;
+    height: 60px;
+    margin: 15px 0px;
+}
+
+
+    .contact footer .name h1 {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+    .contact footer .link {
+    width: 50%;
+}
+
+    .contact footer .link ul {
+    line-height: 60px;
+}
+
+
+    .contact footer .link ul li a {
+    font-size: 15px;
+}
+
+    .contact footer .social-btn {
+    line-height: 60px;
+}
+
+    .contact footer .social-btn i {
+    font-size: 18px;
+}
+
+
+}
